@@ -22,6 +22,7 @@ public class ArrayApp {
         size = arr.length;
         Arrays.stream(arr).forEach(System.out::println);
         System.out.println("");
+       // System.out.println(arr.length);
 
     //-------------------------------Search Key-----------------------------------
         searchKey = 78;
@@ -69,9 +70,10 @@ public class ArrayApp {
         }
 
         for(int i=0;i<size;i++){
-            System.out.println(arr[i]);
+            System.out.println(arr[i] + " ");
         }
-        System.out.println(" ");
+        System.out.println("");
+
 
     }
 }
